@@ -53,12 +53,12 @@ return (
 
           <div className="input-container">
               <label htmlFor="height">Height (cm):</label>
-              <input type="text" id="height" value={height} onChange={(e) => setHeight(e.target.value)} />
+              <input type="text" id="height" value={height} onChange={(e) => setHeight(e.target.value)} placeholder='enter your height'/>
           </div>
 
           <div className="input-container">
               <label htmlFor="weight">Weight (kg):</label>
-              <input type="text" id="weight" value={weight} onChange={(e) => setWeight(e.target.value)} />
+              <input type="text" id="weight" value={weight} onChange={(e) => setWeight(e.target.value)} placeholder='enter your weight'/>
           </div>
 
           <button onClick={calculateBmi}>Calculate BMI</button>

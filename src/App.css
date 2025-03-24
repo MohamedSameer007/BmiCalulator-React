@@ -13,13 +13,16 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #535c68;
+    background:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.9)),url(https://c8.alamy.com/comp/2BG9P3B/man-body-mass-index-vector-fitness-bmi-chart-with-male-silhouettes-and-scale-body-mass-index-fot-health-life-obesity-and-overweight-illustration-2BG9P3B.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .bmi-calculator{
     width: 800px;
     height: 500px;
     padding: 20px;
-    background-color: #fff;
+    background-color: #b2bec3;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     display: flex;
@@ -74,6 +77,10 @@ input{
     border-radius: 4px;
     outline: none;
     font-size: 18px;
+}
+input::placeholder{
+    font-size: 16px;
+    font-weight: 400 !important;
 }
 button{
     background-color: #3498db;
