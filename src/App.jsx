@@ -47,7 +47,7 @@ return (
   <div className="bmi-calculator">
       <div className="box"></div>
       <div className="data">
-          <h1>BMI Calculator</h1>
+          <h1>BMIIII Calculator</h1>
 
           {errorMessage && <p className="error">{errorMessage}</p>}
 
